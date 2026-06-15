@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surat Untuk Kamu ❤️</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.card{
+    background:white;
+    max-width:600px;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+h1{
+    color:#ff4d6d;
+}
+
+p{
+    font-size:18px;
+    line-height:1.7;
+    color:#444;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    background:#ff4d6d;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+button:hover{
+    background:#ff2d55;
+}
+
+#pesan{
+    margin-top:20px;
+    font-size:20px;
+    color:#ff2d55;
+    font-weight:bold;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h1>❤️ Untuk Kamu ❤️</h1>
+
+    <p>
+        Hai, terima kasih sudah hadir dalam hidupku.
+        Senyummu selalu membuat hariku terasa lebih indah.
+        Semoga kamu selalu bahagia, sehat, dan dikelilingi oleh hal-hal baik.
+    </p>
+
+    <p>
+        Mungkin aku tidak selalu bisa mengungkapkan semuanya dengan sempurna,
+        tapi satu hal yang pasti: aku sangat menghargai keberadaanmu.
+    </p>
+
+    <button onclick="tampilPesan()">Klik Aku 💌</button>
+
+    <div id="pesan"></div>
+</div>
+
+<script>
+function tampilPesan(){
+    document.getElementById("pesan").innerHTML =
+    "Terima kasih sudah menjadi seseorang yang spesial. ❤️";
+}
+</script>
+
+</body>
+</html>
